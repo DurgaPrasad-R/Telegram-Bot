@@ -2,7 +2,7 @@ const admin = require("firebase-admin");
 const { getFirestore} = require('firebase-admin/firestore');
 const request = require('request');
 const TelegramBot = require('node-telegram-bot-api');
-const token = '6689058014:AAHI7P2zUdtyHpqhMEajrVR_6TiVjYaGbqA';
+const token = 'token_here';
 const bot = new TelegramBot(token,{polling:true});
 
 
